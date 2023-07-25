@@ -1,0 +1,8 @@
+/frontend/node_modules
+/frontend/.env
+/frontend/build
+/contracts/node_modules
+/contracts/.env
+/contracts/artifacts
+/contracts/cache
+/contracts/test

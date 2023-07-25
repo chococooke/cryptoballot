@@ -1,0 +1,33 @@
+.not-found-error-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+    &-back {
+        position: fixed;
+        top: 10vh;
+    }
+
+    &-img {
+        height: 30vh;
+        margin: 12px;
+    }
+
+    &__message,
+    &__description {
+        margin: 20px;
+    }
+}
+
+.notfound {
+    background-color: rgba($color: blue, $alpha: 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: black;
+    z-index: 1000;
+}

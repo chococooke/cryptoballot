@@ -1,0 +1,32 @@
+.countdown-container {
+  margin: 0;
+  padding: 0;
+
+  &-list {
+    &>li {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+}
+
+.countdown-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &-list {
+
+
+    &--item {
+      padding: 6px;
+      background-color: $color-neutral-2;
+      border-radius: 6px;
+    }
+  }
+}
+
+.expired-text {
+  color: red;
+}
